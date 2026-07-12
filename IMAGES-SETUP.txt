@@ -1,0 +1,31 @@
+IMAGES SETUP — ek baar ka kaam
+==================================================
+
+STEP 1: Neeche wali har URL browser mein kholo aur
+        image ko Right-click -> Save image as... karke
+        SAME NAAM ke saath ek folder 'images' mein save karo.
+
+STEP 2: GitHub repo kholo -> Add file -> Upload files ->
+        poora 'images' folder drag karo -> Commit changes.
+        (Auto-deploy se site pe khud aa jayengi)
+
+Total 18 images:
+
+https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-15.09.55.jpeg
+https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-15.08.00.jpeg
+https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-15.16.20.jpeg
+https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-15.11.51.jpeg
+https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-15.41.10.jpeg
+https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-15.51.45.jpeg
+https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.31.44-PM.webp
+https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.29.28-PM.webp
+https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.22.14-PM.webp
+https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.20.44-PM.webp
+https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.18.53-PM.webp
+https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.16.56-PM.webp
+https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.40.16-PM.webp
+https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.38.51-PM.webp
+https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.33.53-PM.webp
+https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.55.44-PM.webp
+https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.44.00-PM.webp
+https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.48.51-PM.webp

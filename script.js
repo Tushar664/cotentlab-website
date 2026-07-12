@@ -385,3 +385,23 @@ burger.addEventListener('click', () => mobilemenu.classList.toggle('open'));
 mobilemenu.querySelectorAll('a').forEach((a) =>
   a.addEventListener('click', () => mobilemenu.classList.remove('open'))
 );
+
+/* ------------------------------------------------------------
+   6. CREATOR IMAGES: drop circles whose image fails to load
+------------------------------------------------------------ */
+document.querySelectorAll('img[data-fallback]').forEach((img) => {
+  const kill = () => {
+    const c = img.closest('.bub, .creators__cell, .gal__item, .exp__shot');
+    if (c) c.remove();
+  };
+  const onErr = () => {
+    if (img.dataset.fallback) {           // local missing → try remote copy
+      img.src = img.dataset.fallback;
+      delete img.dataset.fallback;
+    } else {
+      kill();                              // both failed → remove cleanly
+    }
+  };
+  if (img.complete && img.naturalWidth === 0) onErr();
+  img.addEventListener('error', onErr);
+});

@@ -721,10 +721,10 @@ section{position:relative;padding:130px 0}
   background:#0A101F;
 }
 .bub img{
-  /* zoom into the creator's face (IG avatar sits top-left of profile screenshots) */
+  /* frame the creator circle (sits centre, slightly low, in these graphics) */
   position:relative;display:block;
-  width:var(--zoom,320%);max-width:none;
-  left:var(--ix,-2%);top:var(--iy,-14%);
+  width:var(--zoom,175%);max-width:none;
+  left:var(--ix,-37%);top:var(--iy,-46%);
 }
 @keyframes bubfloat{
   0%,100%{transform:translateY(0)}
@@ -755,8 +755,8 @@ section{position:relative;padding:130px 0}
 .creators__cell:hover{transform:scale(1.12);box-shadow:0 0 26px rgba(61,123,255,.5)}
 .creators__cell img{
   position:relative;display:block;
-  width:var(--zoom,320%);max-width:none;
-  left:var(--ix,-2%);top:var(--iy,-14%);
+  width:var(--zoom,175%);max-width:none;
+  left:var(--ix,-37%);top:var(--iy,-46%);
 }
 @keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 
@@ -771,3 +771,25 @@ section{position:relative;padding:130px 0}
   .bub{animation:none}
   .creators__track{animation:none}
 }
+
+/* ---------- EXPERIMENTS: creator gallery ---------- */
+.gal{margin-top:70px}
+.gal__label{
+  text-align:center;font-family:var(--font-mono);font-size:12px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--mist);margin-bottom:34px;
+}
+.gal__grid{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:18px;
+}
+.gal__item{
+  margin:0;border-radius:16px;overflow:hidden;
+  border:1px solid var(--line);background:var(--panel);
+  transition:transform .3s ease,border-color .3s ease,box-shadow .3s ease;
+}
+.gal__item:hover{
+  transform:translateY(-6px);border-color:rgba(110,160,255,.45);
+  box-shadow:0 0 30px rgba(61,123,255,.2),0 18px 44px rgba(2,4,10,.55);
+}
+.gal__item img{width:100%;display:block}
+@media(max-width:980px){.gal__grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:640px){.gal__grid{grid-template-columns:repeat(2,1fr);gap:12px}}
