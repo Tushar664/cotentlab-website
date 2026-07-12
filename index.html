@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CoTent Lab — From Chaos to System | Creator Growth Agency</title>
+<meta name="description" content="CoTent Lab turns creator chaos into a predictable revenue system. Ads, funnels, webinars & WhatsApp automation for coaches, creators & EdTech brands." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ================= BACKGROUND + 3D CANVAS ================= -->
+<div class="bgfx" aria-hidden="true"></div>
+<canvas id="scene"></canvas>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ================= NAV ================= -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top">
+    <span class="nav__mark">C</span>
+    <span class="nav__name">CoTent&nbsp;<span class="nav__name--thin">Lab</span></span>
+  </a>
+  <nav class="nav__links">
+    <a href="#chaos">The Problem</a>
+    <a href="#system">The System</a>
+    <a href="#experiments">Experiments</a>
+    <a href="#compare">Why Us</a>
+    <a href="#faq">FAQ</a>
+  </nav>
+  <a href="#contact" class="btn btn--sm btn--solid">Book a Call</a>
+  <button class="nav__burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+</header>
+<div class="mobilemenu" id="mobilemenu">
+  <a href="#chaos">The Problem</a>
+  <a href="#system">The System</a>
+  <a href="#experiments">Experiments</a>
+  <a href="#compare">Why Us</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contact" class="btn btn--solid">Book a Call</a>
+</div>
+
+<main id="top">
+
+<!-- ================= ACT 1 · HERO (CHAOS) ================= -->
+<section class="hero" id="hero">
+  <div class="hero__bubbles" aria-hidden="true">
+    <span class="bub" style="--x:7%;--y:22%;--s:64px;--d:0s"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.31.44-PM.webp" alt="" loading="lazy"/></span>
+    <span class="bub" style="--x:14%;--y:64%;--s:52px;--d:1.2s"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.29.28-PM.webp" alt="" loading="lazy"/></span>
+    <span class="bub" style="--x:5%;--y:44%;--s:44px;--d:2.4s"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.22.14-PM.webp" alt="" loading="lazy"/></span>
+    <span class="bub" style="--x:90%;--y:24%;--s:56px;--d:.8s"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.20.44-PM.webp" alt="" loading="lazy"/></span>
+    <span class="bub" style="--x:94%;--y:48%;--s:46px;--d:1.9s"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.40.16-PM.webp" alt="" loading="lazy"/></span>
+    <span class="bub" style="--x:88%;--y:68%;--s:60px;--d:3s"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.55.44-PM.webp" alt="" loading="lazy"/></span>
+  </div>
+  <div class="hero__inner">
+    <p class="eyebrow reveal"><span class="eyebrow__dot"></span> CoTent Lab · Creator Growth Agency</p>
+    <h1 class="hero__title">
+      <span class="line reveal">Your content is</span>
+      <span class="line reveal"><em>everywhere.</em></span>
+      <span class="line reveal hero__grad">Your revenue is nowhere.</span>
+    </h1>
+    <p class="hero__sub reveal">We engineer scattered effort — random reels, wasted ad spend, ghosting leads — into
+    <strong>one compounding revenue system</strong> for coaches, creators and EdTech brands.</p>
+    <div class="hero__cta reveal">
+      <a href="#contact" class="btn btn--solid btn--lg">Get Your Free Growth Diagnosis <span class="btn__arrow">→</span></a>
+      <a href="#experiments" class="btn btn--ghost btn--lg">See the Experiments</a>
+    </div>
+  </div>
+  <div class="hero__scrollcue" aria-hidden="true">
+    <span class="hero__mouse"></span>
+    <span class="hero__scrolltext">scroll — chaos → system</span>
+  </div>
+</section>
+
+<!-- ================= HERO STATS BAND ================= -->
+<section class="statsband">
+  <div class="wrap statsband__grid">
+    <div class="reveal"><b data-count="40" data-prefix="₹" data-suffix="Cr+">₹0</b><span>Revenue engineered</span></div>
+    <div class="reveal"><b data-count="100" data-suffix="+">0</b><span>Creators & EdTechs scaled</span></div>
+    <div class="reveal"><b data-count="12" data-prefix="4–" data-suffix="x">0</b><span>Average ROAS range</span></div>
+  </div>
+</section>
+
+<!-- ================= CREATOR WALL ================= -->
+<section class="creators">
+  <p class="creators__label">Creators & educators growing with the system</p>
+  <div class="creators__viewport">
+    <div class="creators__track"><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.31.44-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.29.28-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.22.14-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.20.44-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.18.53-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.16.56-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.40.16-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.38.51-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.33.53-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.55.44-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.44.00-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.48.51-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.31.44-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.29.28-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.22.14-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.20.44-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.18.53-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.16.56-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.40.16-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.38.51-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.33.53-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.55.44-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.44.00-PM.webp" alt="Creator" loading="lazy"/></span><span class="creators__cell"><img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-4.48.51-PM.webp" alt="Creator" loading="lazy"/></span></div>
+  </div>
+</section>
+
+<!-- ================= ACT 1.5 · CHAOS NARRATIVE ================= -->
+<section class="chaos" id="chaos">
+  <div class="chaos__sticky">
+    <p class="eyebrow"><span class="eyebrow__dot eyebrow__dot--red"></span> Diagnosis · The Creator Chaos</p>
+    <div class="chaos__lines">
+      <h2 class="chaos__line" data-step="1">You post every day.<br/><span>The algorithm decides if you eat.</span></h2>
+      <h2 class="chaos__line" data-step="2">You ran ads once.<br/><span>The money vanished. No one told you why.</span></h2>
+      <h2 class="chaos__line" data-step="3">Leads come in.<br/><span>Then they ghost — because nothing follows up.</span></h2>
+      <h2 class="chaos__line" data-step="4">It's not your content.<br/><span>It's the missing <em>system</em> behind it.</span></h2>
+    </div>
+    <div class="chaos__progress"><span id="chaosbar"></span></div>
+  </div>
+</section>
+
+<!-- ================= ACT 2 · TRANSFORMATION ================= -->
+<section class="shift" id="system">
+  <div class="shift__sticky">
+    <p class="eyebrow"><span class="eyebrow__dot"></span> The Shift</p>
+    <h2 class="shift__title">Watch the chaos <em>organize.</em></h2>
+    <p class="shift__sub">Every scattered <em class="slot"><span>follower</span></em>, <em class="slot"><span>click</span></em>, <em class="slot"><span>rupee</span></em> and <em class="slot"><span>student</span></em> — pulled into one engineered flow.</p>
+
+    <div class="shift__landing" aria-hidden="true">
+      <span class="lspot"></span><span class="lspot"></span><span class="lspot"></span><span class="lspot"></span>
+    </div>
+    <p class="shift__call">We call it the <span class="sysbadge">CoTent System™</span></p>
+
+    <div class="shift__icons" aria-hidden="true">
+      <div class="ichip" data-chip="0"><div class="ichip__in" style="--bd:4.2s"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5"/></svg><span>Followers</span></div></div>
+      <div class="ichip" data-chip="1"><div class="ichip__in" style="--bd:5.1s"><svg viewBox="0 0 24 24"><path d="M4 4l7 17 2.5-7 7-2.5z"/></svg><span>Clicks</span></div></div>
+      <div class="ichip" data-chip="2"><div class="ichip__in" style="--bd:4.7s"><svg viewBox="0 0 24 24"><path d="M6 4h12M6 8h12M6 8c6 0 8 2 8 5 0 2.5-2 4-5 4l6 7" transform="translate(0,-2)"/></svg><span>Rupees</span></div></div>
+      <div class="ichip" data-chip="3"><div class="ichip__in" style="--bd:5.6s"><svg viewBox="0 0 24 24"><path d="M12 4L2 9l10 5 10-5-10-5z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"/></svg><span>Students</span></div></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= ACT 2.3 · FUNNEL BLUEPRINT ================= -->
+<section class="fmap">
+  <div class="fmap__grid" aria-hidden="true"></div>
+  <div class="wrap fmap__wrap">
+    <div class="fmap__funnel">
+      <div class="fmap__stage" style="--w:100%">
+        <span class="fmap__label">01 · STAGE</span>
+        <h3>Attention In</h3>
+        <p>Ads · Reels · Reach</p>
+      </div>
+      <div class="fmap__link"><span></span></div>
+      <div class="fmap__stage" style="--w:86%">
+        <span class="fmap__label">02 · STAGE</span>
+        <h3>Qualified Leads</h3>
+        <p>Landing pages · Lead magnets</p>
+      </div>
+      <div class="fmap__link"><span></span></div>
+      <div class="fmap__stage" style="--w:72%">
+        <span class="fmap__label">03 · STAGE</span>
+        <h3>Nurtured Buyers</h3>
+        <p>WhatsApp · Email · Webinar</p>
+      </div>
+      <div class="fmap__link fmap__link--green"><span></span></div>
+      <div class="fmap__stage fmap__stage--out" style="--w:58%">
+        <span class="fmap__label">04 · STAGE</span>
+        <h3>₹ Revenue Out</h3>
+        <p>Predictable · Compounding</p>
+      </div>
+      <div class="fmap__beam"><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ACT 2.5 · THE SYSTEM PILLARS ================= -->
+<section class="pillars">
+  <div class="wrap">
+    <p class="eyebrow reveal"><span class="eyebrow__dot"></span> The CoTent System™</p>
+    <h2 class="h2 reveal">Four modules. One machine.<br/>Zero guesswork.</h2>
+    <p class="lead reveal">Most agencies sell you one piece and blame you when it doesn't work alone. We build, own and optimise all four — because a system is only as strong as its weakest module.</p>
+
+    <div class="pillars__grid">
+      <article class="pillar reveal" data-mod="01">
+        <div class="pillar__head"><span class="pillar__num">M·01</span><span class="pillar__pulse"></span></div>
+        <h3>Performance Ads</h3>
+        <p>Meta ads engineered around your audience's burning problems — hook scripts, VSL creatives, intent-based targeting. Tested weekly, never "set and forget."</p>
+        <span class="pillar__tag">attention → clicks</span>
+      </article>
+      <article class="pillar reveal" data-mod="02">
+        <div class="pillar__head"><span class="pillar__num">M·02</span><span class="pillar__pulse"></span></div>
+        <h3>Conversion Funnels</h3>
+        <p>Workshop & webinar funnels with registration pages built to stop drop-offs. Every step measured, every leak sealed before we scale spend.</p>
+        <span class="pillar__tag">clicks → registrations</span>
+      </article>
+      <article class="pillar reveal" data-mod="03">
+        <div class="pillar__head"><span class="pillar__num">M·03</span><span class="pillar__pulse"></span></div>
+        <h3>WhatsApp & Email Automation</h3>
+        <p>Sequences that nurture every lead from ad click to webinar seat to sale — 24/7, without you touching your phone. 90%+ open rates on WhatsApp.</p>
+        <span class="pillar__tag">registrations → show-ups</span>
+      </article>
+      <article class="pillar reveal" data-mod="04">
+        <div class="pillar__head"><span class="pillar__num">M·04</span><span class="pillar__pulse"></span></div>
+        <h3>Webinar Conversion Coaching</h3>
+        <p>The step everyone skips. We train you to deliver a workshop that sells naturally — the same process that took our creators from 0 to consistent enrolments.</p>
+        <span class="pillar__tag">show-ups → revenue</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ACT 3 · PROOF STRIP ================= -->
+<section class="proof">
+  <div class="wrap proof__grid">
+    <div class="proof__item reveal"><b data-count="80" data-suffix="%">0</b><span>of clients triple profit within 6 months</span></div>
+    <div class="proof__item reveal"><b data-count="61" data-prefix="↓" data-suffix="%">0</b><span>best CPL drop after creative reset</span></div>
+    <div class="proof__item reveal"><b data-count="150" data-suffix="+">0</b><span>workshops running every month</span></div>
+    <div class="proof__item reveal"><b data-count="95" data-suffix="%">0</b><span>client retention — they stay because it works</span></div>
+  </div>
+</section>
+
+<!-- ================= ACT 3 · EXPERIMENTS (CASE STUDIES) ================= -->
+<section class="experiments" id="experiments">
+  <div class="wrap">
+    <p class="eyebrow reveal"><span class="eyebrow__dot"></span> Lab Records · Real Creators</p>
+    <h2 class="h2 reveal">Every result here started<br/>as someone's chaos.</h2>
+
+    <article class="exp reveal">
+      <header class="exp__head">
+        <span class="exp__id">EXPERIMENT — 001</span>
+        <span class="exp__status">● SCALED</span>
+      </header>
+      <div class="exp__body">
+        <div class="exp__main">
+          <div class="exp__who">
+            <div><h3>Mahatmaji Technical</h3><p>Founder: Amresh Bharati · 10M+ community across YouTube & Instagram</p></div>
+          </div>
+          <div class="exp__cols">
+            <div>
+              <h4>Chaos state</h4>
+              <p>Massive audience, but no predictable acquisition funnel. Business fully dependent on organic content — no repeatable system to acquire and convert new customers.</p>
+            </div>
+            <div>
+              <h4>System applied</h4>
+              <p>Workshop funnel built as a growth engine → webinar conversion training → 2–3 months of iteration until the structure converted consistently → scaled.</p>
+            </div>
+          </div>
+          <div class="exp__results">
+            <div><b>10M+</b><span>community leveraged</span></div>
+            <div><b>0→1</b><span>repeatable funnel built</span></div>
+            <div><b>∞</b><span>workshops as a growth channel</span></div>
+          </div>
+        </div>
+        <figure class="exp__shot">
+          <img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-15.09.55.jpeg" alt="Mahatmaji Technical — Instagram profile" loading="lazy"/>
+        </figure>
+      </div>
+    </article>
+
+    <article class="exp reveal">
+      <header class="exp__head">
+        <span class="exp__id">EXPERIMENT — 002</span>
+        <span class="exp__status">● SCALED</span>
+      </header>
+      <div class="exp__body">
+        <div class="exp__main">
+          <div class="exp__who">
+            <div><h3>Janhavi Panwar</h3><p>Wonder Girl of India · 2M+ YouTube · Accent Trainer</p></div>
+          </div>
+          <div class="exp__cols">
+            <div>
+              <h4>Chaos state</h4>
+              <p>Tried workshop funnels multiple times — attendees never converted to enrolments, making paid acquisition unsustainable. Stuck on organic-only sales.</p>
+            </div>
+            <div>
+              <h4>System applied</h4>
+              <p>Diagnosed the real bottleneck: webinar delivery, not traffic. Two weeks of intensive conversion training → webinar converting consistently → funnel scaled with confidence.</p>
+            </div>
+          </div>
+          <div class="exp__results">
+            <div><b>2 wks</b><span>to crack conversion</span></div>
+            <div><b>2M+</b><span>audience activated</span></div>
+            <div><b>∞</b><span>predictable student flow</span></div>
+          </div>
+        </div>
+        <figure class="exp__shot">
+          <img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-15.51.45.jpeg" alt="Janhavi Panwar — Instagram profile" loading="lazy"/>
+        </figure>
+      </div>
+    </article>
+
+    <article class="exp reveal">
+      <header class="exp__head">
+        <span class="exp__id">EXPERIMENT — 003</span>
+        <span class="exp__status">● SCALED</span>
+      </header>
+      <div class="exp__body">
+        <div class="exp__main">
+          <div class="exp__who">
+            <div><h3>Excel Vali</h3><p>Ankush & Kritika · 2M+ Instagram · Excel educators for 7+ years</p></div>
+          </div>
+          <div class="exp__cols">
+            <div>
+              <h4>Chaos state</h4>
+              <p>Strong teaching business but zero exposure to paid acquisition. Skeptical of agencies — wanted results, not promises. Growth capped at organic reach.</p>
+            </div>
+            <div>
+              <h4>System applied</h4>
+              <p>Workshop Ads funnel to acquire learners beyond organic → proven teaching + scalable acquisition engine → business unlocked its next phase of growth.</p>
+            </div>
+          </div>
+          <div class="exp__results">
+            <div><b>2M+</b><span>community scaled beyond</span></div>
+            <div><b>📈</b><span>predictable enrolments</span></div>
+            <div><b>1000s</b><span>of professionals trained</span></div>
+          </div>
+        </div>
+        <figure class="exp__shot">
+          <img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-15.41.10.jpeg" alt="Excel Vali — Instagram profile" loading="lazy"/>
+        </figure>
+      </div>
+    </article>
+    <article class="exp reveal">
+      <header class="exp__head">
+        <span class="exp__id">EXPERIMENT — 004</span>
+        <span class="exp__status">● SCALED</span>
+      </header>
+      <div class="exp__body">
+        <div class="exp__main">
+          <div class="exp__who">
+            <div><h3>Om Sai Cooking Classes</h3><p>Chef Seema Gaware Patil · 400K+ community across YouTube & Instagram</p></div>
+          </div>
+          <div class="exp__cols">
+            <div>
+              <h4>Chaos state</h4>
+              <p>Years of organic growth had plateaued. Courses sold only to existing followers — revenue stagnant, no way to reach new audiences.</p>
+            </div>
+            <div>
+              <h4>System applied</h4>
+              <p>End-to-end Workshop Ads Funnel → paid acquisition bringing qualified registrations consistently → nurture + conversion journey optimised → high-converting workshop training.</p>
+            </div>
+          </div>
+          <div class="exp__results">
+            <div><b>400K+</b><span>organic trust leveraged</span></div>
+            <div><b>📈</b><span>stagnant → growth mode</span></div>
+            <div><b>∞</b><span>new audiences every month</span></div>
+          </div>
+        </div>
+        <figure class="exp__shot">
+          <img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-15.08.00.jpeg" alt="Om Sai Cooking Classes — Instagram profile" loading="lazy"/>
+        </figure>
+      </div>
+    </article>
+    <article class="exp reveal">
+      <header class="exp__head">
+        <span class="exp__id">EXPERIMENT — 005</span>
+        <span class="exp__status">● SCALED</span>
+      </header>
+      <div class="exp__body">
+        <div class="exp__main">
+          <div class="exp__who">
+            <div><h3>TechTip24</h3><p>Data Analytics Mentor · 200K+ followers on Instagram</p></div>
+          </div>
+          <div class="exp__cols">
+            <div>
+              <h4>Chaos state</h4>
+              <p>Proven workshop business, but CPL shot up sharply every time budgets scaled. Growth capped by lead costs, not conversion.</p>
+            </div>
+            <div>
+              <h4>System applied</h4>
+              <p>Laser-focus on the acquisition funnel → registrations brought consistently within target CPL → once predictable, entrusted with the complete growth ecosystem.</p>
+            </div>
+          </div>
+          <div class="exp__results">
+            <div><b>CPL ✓</b><span>locked within target</span></div>
+            <div><b>💰</b><span>profitable at scale</span></div>
+            <div><b>∞</b><span>predictable registration flow</span></div>
+          </div>
+        </div>
+        <figure class="exp__shot">
+          <img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-15.16.20.jpeg" alt="TechTip24 — Instagram profile" loading="lazy"/>
+        </figure>
+      </div>
+    </article>
+    <article class="exp reveal">
+      <header class="exp__head">
+        <span class="exp__id">EXPERIMENT — 006</span>
+        <span class="exp__status">● SCALED</span>
+      </header>
+      <div class="exp__body">
+        <div class="exp__main">
+          <div class="exp__who">
+            <div><h3>Finance by CA Bros</h3><p>CA Vishal & CA Rohit · 250K+ Instagram · 10+ years of CA practice</p></div>
+          </div>
+          <div class="exp__cols">
+            <div>
+              <h4>Chaos state</h4>
+              <p>Deep expertise in Accounting, GST & Taxation — but locked inside a traditional practice. Strong organic community, no scalable education business.</p>
+            </div>
+            <div>
+              <h4>System applied</h4>
+              <p>Structured programs launched → Workshop Funnel + high-converting workshop training → repeatable system converting participants into flagship students.</p>
+            </div>
+          </div>
+          <div class="exp__results">
+            <div><b>0→1</b><span>new business vertical</span></div>
+            <div><b>1000s</b><span>of finance professionals trained</span></div>
+            <div><b>∞</b><span>runs independent of practice</span></div>
+          </div>
+        </div>
+        <figure class="exp__shot">
+          <img src="https://creatorlabs.in/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-18-at-15.11.51.jpeg" alt="Finance by CA Bros — Instagram profile" loading="lazy"/>
+        </figure>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ================= ACT 3.5 · COMPARISON ================= -->
+<section class="compare" id="compare">
+  <div class="wrap">
+    <p class="eyebrow reveal"><span class="eyebrow__dot"></span> Guesswork vs. System</p>
+    <h2 class="h2 reveal">Why creators leave their<br/>agency for the Lab.</h2>
+    <div class="table reveal">
+      <div class="table__row table__row--head">
+        <div>What you get</div><div>Typical agency</div><div class="table__us">CoTent Lab</div>
+      </div>
+      <div class="table__row"><div>Specialisation</div><div>Everyone, every niche</div><div class="table__us">Creators, coaches & EdTech only</div></div>
+      <div class="table__row"><div>Growth process</div><div>Black box</div><div class="table__us">CoTent System™ — 4 visible modules</div></div>
+      <div class="table__row"><div>WhatsApp automation</div><div>✕ Not included</div><div class="table__us">✓ Built-in, every client</div></div>
+      <div class="table__row"><div>Webinar training</div><div>✕ "Your problem"</div><div class="table__us">✓ We coach you until it converts</div></div>
+      <div class="table__row"><div>Funnel & landing pages</div><div>Extra cost</div><div class="table__us">✓ Included, no upfront cost</div></div>
+      <div class="table__row"><div>Reporting</div><div>Monthly PDF</div><div class="table__us">Live dashboard — every rupee visible</div></div>
+      <div class="table__row"><div>Pricing model</div><div>Fixed retainer, win or lose</div><div class="table__us">Aligned to your success</div></div>
+      <div class="table__row"><div>Lock-in contract</div><div>6–12 months</div><div class="table__us">✕ None. We retain by results</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ACT 4 · FIT FILTER ================= -->
+<section class="fit">
+  <div class="wrap">
+    <p class="eyebrow reveal"><span class="eyebrow__dot"></span> We're Selective</p>
+    <h2 class="h2 reveal">The system works.<br/>But only for the right inputs.</h2>
+    <div class="fit__grid">
+      <div class="fitcard fitcard--yes reveal">
+        <h3>✓ &nbsp;You belong in the Lab if…</h3>
+        <ul>
+          <li><b>You're a creator or educator with an audience.</b> Instagram, YouTube — an engaged community is your raw material.</li>
+          <li><b>You have something real to sell.</b> A course, cohort, masterclass or program that genuinely helps people.</li>
+          <li><b>You're ready to treat this as a business.</b> Meaningful ad budget, decisions from data, thinking in systems.</li>
+        </ul>
+      </div>
+      <div class="fitcard fitcard--no reveal">
+        <h3>✕ &nbsp;This isn't for you if…</h3>
+        <ul>
+          <li><b>You're still figuring out your offer.</b> Pre-revenue and idea-stage — the math won't work yet. Come back when it exists.</li>
+          <li><b>You want miracles by Friday.</b> The system compounds over 30–90 days. It's engineering, not magic.</li>
+          <li><b>You're shopping for the cheapest option.</b> We price on value created — and our clients stay because it pays for itself.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="faq" id="faq">
+  <div class="wrap wrap--narrow">
+    <p class="eyebrow reveal"><span class="eyebrow__dot"></span> Straight Answers</p>
+    <h2 class="h2 reveal">Questions every creator asks us.</h2>
+
+    <div class="faq__list">
+      <details class="faq__item reveal">
+        <summary>What results can I realistically expect?</summary>
+        <p>Across coaching and EdTech niches our campaigns typically land between 4x and 12x ROAS once the system stabilises — usually within the first 60–90 days. We'll never promise a specific number before auditing your offer; anyone who does is guessing with your money.</p>
+      </details>
+      <details class="faq__item reveal">
+        <summary>How much ad budget do I need to start?</summary>
+        <p>Enough to generate statistically meaningful data — for most creators that's a starting range we'll define together on the diagnosis call based on your ticket size and funnel math. Performance marketing without meaningful spend simply doesn't perform.</p>
+      </details>
+      <details class="faq__item reveal">
+        <summary>I've never run ads before. Is that a problem?</summary>
+        <p>No — some of our best results came from accounts we built from zero. What matters is your offer and audience. The ads, funnel, automation and webinar training are exactly what we bring.</p>
+      </details>
+      <details class="faq__item reveal">
+        <summary>What if my webinar doesn't convert?</summary>
+        <p>That's the module most agencies ignore and we obsess over. We train you on structure, delivery and pitch until it converts consistently — in one recent case, two weeks of focused iteration took a webinar from unsustainable to reliably profitable.</p>
+      </details>
+      <details class="faq__item reveal">
+        <summary>Do you lock me into a contract?</summary>
+        <p>No lock-ins. We keep clients by making them money, not by making them sign. Our retention rate is the proof.</p>
+      </details>
+      <details class="faq__item reveal">
+        <summary>Can you guarantee results?</summary>
+        <p>No honest agency can legally guarantee ROAS. What we guarantee: the complete CoTent System™, daily optimisation, full transparency on every rupee — and a track record where most clients multiply their revenue within months.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FINAL CTA ================= -->
+<section class="cta" id="contact">
+  <div class="wrap wrap--narrow cta__inner">
+    <p class="eyebrow reveal"><span class="eyebrow__dot"></span> Begin the Experiment</p>
+    <h2 class="cta__title reveal">Your chaos ends<br/>on one call.</h2>
+    <p class="lead reveal">Book a free 20-minute Growth Diagnosis. We'll audit your current setup, show you exactly where revenue is leaking, and map your version of the CoTent System — whether you work with us or not. No pitch. No pressure.</p>
+    <div class="cta__actions reveal">
+      <a href="#" class="btn btn--solid btn--lg">Book Free Growth Diagnosis</a>
+      <a href="https://wa.me/910000000000" class="btn btn--ghost btn--lg">💬 WhatsApp Us</a>
+    </div>
+    <div class="cta__trust reveal">
+      <span>🔒 No lock-in contracts</span>
+      <span>✓ No hidden fees</span>
+      <span>★ Creators & EdTech only</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div class="footer__brand">
+      <span class="footer__logo">CoTent Lab</span>
+      <p>Create · Connect · Grow</p>
+      <p class="footer__desc">We help creators grow online — turning scattered content into predictable revenue systems for coaches, creators & EdTech brands across India.</p>
+    </div>
+    <div class="footer__col">
+      <h4>System</h4>
+      <a href="#system">The CoTent System™</a>
+      <a href="#system">Performance Ads</a>
+      <a href="#system">Conversion Funnels</a>
+      <a href="#system">WhatsApp Automation</a>
+    </div>
+    <div class="footer__col">
+      <h4>Company</h4>
+      <a href="#experiments">Experiments</a>
+      <a href="#compare">Why Us</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer__col">
+      <h4>Legal</h4>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Refund Policy</a>
+    </div>
+  </div>
+  <div class="wrap footer__bottom">
+    <span>© 2026 CoTent Lab. All rights reserved.</span>
+    <span>team@cotentlab.in</span>
+  </div>
+</footer>
+
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
