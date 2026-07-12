@@ -781,6 +781,6 @@ section{position:relative;padding:130px 0}
   transform:translateY(-6px);border-color:rgba(110,160,255,.45);
   box-shadow:0 0 30px rgba(61,123,255,.2),0 18px 44px rgba(2,4,10,.55);
 }
-.gal__item img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}
+.gal__item img{width:100%;display:block}
 @media(max-width:980px){.gal__grid{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:640px){.gal__grid{grid-template-columns:repeat(2,1fr);gap:12px}}
